@@ -89,6 +89,7 @@ sensor:
     name: num_targets
     id: num_targets # do not change
     accuracy_decimals: 0
+    internal: true
 
   - platform: custom
     lambda: |-
